@@ -1,0 +1,11 @@
+1 - for loop
+2 - for loop with modulus
+3 - switch with break
+4 - switch without break
+5 - activity to practice with logic
+6 - function returning a value and procedure printing the result
+7 - fucntion to find hoghest number. One way practicing logic and the other using built in max function
+8 - storing refernces to functions and calling functions using references
+9 - nested functions to make a calculator
+server1 - creating a server
+server2 - creating a server and checking the URL within the request object
