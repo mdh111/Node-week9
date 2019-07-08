@@ -9,3 +9,6 @@
 9 - nested functions to make a calculator
 server1 - creating a server
 server2 - creating a server and checking the URL within the request object
+server3 - passing a pathname and query string in the URL
+server4 - writing a response to the browser
+server5 - changing server3 so the response based on pathname and query string is sent to the browser
