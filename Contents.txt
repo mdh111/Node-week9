@@ -12,3 +12,8 @@ server2 - creating a server and checking the URL within the request object
 server3 - passing a pathname and query string in the URL
 server4 - writing a response to the browser
 server5 - changing server3 so the response based on pathname and query string is sent to the browser
+server6 - sending a HTML response back to the browser
+server7 - creating links to appear on different pages, based on the pathname from the request
+server8 - multiple dynamic pages to add numbers by sending them in the query string
+server9 - multiple dynamic pages to produce a times table
+server10 - events in nodejs
