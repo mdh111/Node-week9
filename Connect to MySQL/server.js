@@ -2,6 +2,7 @@ var http = require('http');
 var url = require('url');
 var fs = require('fs');
 var showrec = require('./showRecords.js')
+var showdep = require('./showDep.js')
 var mysql = require('./dbCon.js');
 var mysql = require('mysql');
 
@@ -19,7 +20,9 @@ function indexRequest(req, res){
         });
     } else if(path == '/showallrecords'){
         showrec(res);
-    }
+    } else if(path == '/showdep'){
+        showdep(req, res);
+    } 
 };
 
 
