@@ -1,0 +1,19 @@
+<html>
+    <center>
+    <font size='14pt'>Name: <%= name %></font><br>
+    Physics: <%= physics %><br>
+    Chemistry: <%= chemistry %><br>
+    Maths: <%= maths %><br>
+    <%
+    let total = physics + chemistry + maths;
+    let per = total*100/450
+    %>
+    Total: <%= total %><br>
+    Percentage: <%= per %>%<br>
+    <% if (per>=90) { %>
+        <font color='green' size='16pt'><b>You have passed!</b></font>
+    <% } else { %>
+        <font color='red' size='16pt'><b>You have failed!</b></font>
+    <% } %>
+    </center>
+</html>
